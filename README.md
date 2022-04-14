@@ -1,7 +1,8 @@
 # Spot Bias
 
 **Baseline Model**<br>
-![image](https://user-images.githubusercontent.com/41499024/163365997-2ded900d-08ba-41e6-8a7e-96e7f4dfd585.png)
+
+![image](https://user-images.githubusercontent.com/41499024/163367202-2ffe8488-ff79-4f64-ba0c-8f586b485f4a.png)
 
 
 **FRONT END**
