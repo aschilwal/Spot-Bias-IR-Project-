@@ -23,8 +23,6 @@ We have deployed spotBias-Web Application in our local server- Ubuntu.<br>
 *Google News* 
 Republic News:"https://news.google.com/search?for=republic+world+political+news+india&hl=en-IN&gl=IN&ceid=IN%3Aen"
 NDTV News:https://news.google.com/search?for=ndtv+political+news+india&hl=en-IN&gl=IN&ceid=IN%3Aen"
-
-<br>
 *Database Connectivity* SQLite3 <br><br>
 
 **Features**<br>
