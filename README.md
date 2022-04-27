@@ -7,7 +7,7 @@ spotBias-Identifying Political Bias in News Article.<br>
 The major reason we chose this issue was to determine the political bias in a news story. Certain media sources have a tendency to produce articles that support a political party's point of view or propaganda. As a result, they approach news items with a predetermined agenda. Because the general public is frequently unaware of a Media Outlet's preferences, they tend to believe them and the ideas/incidents mentioned in their publications. We believe that it is critical for the general public to know the truth (before forming an opinion), without succumbing to the bias of media outlets or bloggers' published articles.<br>
 
 **Build Status**<br>
-We have deployed our web application in our local server- Ubuntu.<br>
+We have deployed spotBias-Web Application in our local server- Ubuntu.<br>
 
 **Screenshots**<br>
 ![image](https://user-images.githubusercontent.com/41499024/163366303-6940e8b7-b589-4cf6-983e-90aab2102cb2.png)
