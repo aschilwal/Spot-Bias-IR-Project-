@@ -10,8 +10,12 @@ The major reason we chose this issue was to determine the political bias in a ne
 We have deployed spotBias-Web Application in our local server- Ubuntu.<br>
 
 **Screenshots**<br>
-![image](https://user-images.githubusercontent.com/41499024/163366303-6940e8b7-b589-4cf6-983e-90aab2102cb2.png)
-![image](https://user-images.githubusercontent.com/41499024/163365256-199c0f0f-97d4-4140-abb1-b9546c110dfa.png)
+![image](https://drive.google.com/file/d/1yiFrMgjbnLqcB6ml7S9jU9dOgGnwT17W/view?usp=sharing.png)
+![image](https://drive.google.com/file/d/1Z1OvF6V3fDuFX5mCifFF3_iMJM1AjRkg/view?usp=sharing.png)
+![image](https://drive.google.com/file/d/1nK75y0POnDAyJkwXzUChxLzt8ZqrKPvS/view?usp=sharing.png)
+
+*Database*
+![image](https://drive.google.com/file/d/1BTRpItfW41ke1I4Oxn9f-hskFMiZU_KS/view?usp=sharing.png)
 
 
 **Framework**<br>
