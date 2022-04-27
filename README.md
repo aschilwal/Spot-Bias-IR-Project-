@@ -13,8 +13,7 @@ We have deployed spotBias-Web Application in our local server- Ubuntu.<br>
 ![welcome_page](https://user-images.githubusercontent.com/41499024/165491946-48a8d7a1-dbe2-41cc-b889-0d116223eec4.PNG)
 ![about](https://user-images.githubusercontent.com/41499024/165491998-8f41cf8a-abe7-4081-9af8-f38a75e70afa.PNG)
 ![fetch_news](https://user-images.githubusercontent.com/41499024/165492028-0f14421c-e0a1-4be2-a3da-ceb08f6c1898.PNG)
-
-*Database*
+**Database**
 ![database](https://user-images.githubusercontent.com/41499024/165492369-0934cfa8-bc18-4c48-a68d-5283900607a4.PNG)
 
 **Framework**<br>
