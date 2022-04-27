@@ -15,8 +15,7 @@ We have deployed spotBias-Web Application in our local server- Ubuntu.<br>
 ![fetch_news](https://user-images.githubusercontent.com/41499024/165492028-0f14421c-e0a1-4be2-a3da-ceb08f6c1898.PNG)
 
 *Database*
-
-
+![database](https://user-images.githubusercontent.com/41499024/165492369-0934cfa8-bc18-4c48-a68d-5283900607a4.PNG)
 
 **Framework**<br>
 *Front End* HTML, CSS, Bootstrap <br>
