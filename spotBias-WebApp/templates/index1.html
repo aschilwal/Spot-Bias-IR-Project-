@@ -1,0 +1,324 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>SpotBias</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{{ url_for('static',    filename='assets/img/favicon.jpeg') }}" rel="icon">
+  <link href="{{ url_for('static',    filename='assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{{ url_for('static',    filename='assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static',    filename='assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static',    filename='assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static',    filename='assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static',    filename='assets/vendor/remixicon/remixicon.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static',    filename='assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{{ url_for('static',    filename='assets/css/style.css') }}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Tempo - v4.7.0
+  * Template URL: https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Create two equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Style the buttons */
+    .btn {
+      border: none;
+      outline: none;
+      padding: 12px 16px;
+      background-color: #f1f1f1;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #ddd;
+    }
+
+    .btn.active {
+      background-color: #666;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-scrolled">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">spotBias</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="/assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto active" href="#about">About</a></li>
+
+          <li><a class="nav-link scrollto active" href="#portfolio">Check Biasness</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+    <script>
+      // Get the elements with class="column"
+      var elements = document.getElementsByClassName("column");
+
+      // Declare a loop variable
+      var i;
+
+      // List View
+      function listView() {
+        for (i = 0; i < elements.length; i++) {
+          elements[i].style.width = "100%";
+        }
+      }
+
+      // Grid View
+      function gridView() {
+        for (i = 0; i < elements.length; i++) {
+          elements[i].style.width = "50%";
+        }
+      }
+	function click0() {
+         var input = document.getElementById("Id_0").value;
+	    var text2 = document.getElementById("txt1");
+	    text2.value = input;
+      }
+      function click1() {
+         var input = document.getElementById("Id_1").value;
+	    var text2 = document.getElementById("txt1");
+	    text2.value = input;
+      }
+      function click2() {
+         var input = document.getElementById("Id_2").value;
+	    var text2 = document.getElementById("txt1");
+	    text2.value = input;
+      }
+      function click3() {
+         var input = document.getElementById("Id_3").value;
+	    var text2 = document.getElementById("txt1");
+	    text2.value = input;
+      }
+      /* Optional: Add active class to the current button (highlight it) */
+      var container = document.getElementById("btnContainer");
+      var btns = container.getElementsByClassName("btn");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function () {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+        });
+      }
+    </script>
+
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <h3>Welcome to <strong>spotBias</strong></h3>
+      <h1>We hunt for Bias</h1>
+      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <!-- <h3>Learn More <span>About Us</span></h3> -->
+          <p>Developing a NLP/ML based web application that in real time reports whether the reporting done in news
+            articles is politically biased or not.
+          </p>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+              Our main motivation for selecting this topic includes identifying the political bias present in a news
+              article. Certain media outlets tend to publish articles which strengthen a political party’s view point or
+              propaganda. Thus, they are approaching news items with a biased agenda. Since the general public most
+              often then not, are not aware of the preferences of a Media Outlet, tend to believe them and the
+              ideas/incidents reported in their articles.
+
+            </p>
+
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              We believe it’s highly important for the general public to know the truth (before forming an opinion),
+              without falling prey to bias of the Media outlets or the bloggers’ published articles.
+
+            </p>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+    <!-- ======= Portfolio Section ======= -->
+    <!-- Section: Design Block -->
+    <section id="portfolio" class="portfolio">
+      <!-- Jumbotron -->
+      <div class="px-4 py-5 px-md-5 text-center text-lg-start" style="background-color: hsl(0, 0%, 96%)">
+        <div class="container">
+          <div class="row gx-lg-5 align-items-center">
+            <div class="col-lg-6 mb-5 mb-lg-0">
+              <h1 class="my-5 display-3 fw-bold ls-tight">
+                Fetch News Article</Article> <br />
+              </h1>
+              <!-- Fetch News button -->
+		<form action="{{ url_for('fetch')}}" method="post">
+			<div><button type="submit" style="background-color: #ea6981;">Fetch News</button></div>
+    		</form>
+		<br>
+		
+		<input class="input1" type="text" name="name" placeholder="Number of Fetched NEWS " value = "{{ size }}" style="text-align:center;margin: 10px 10px 					20px 10px;" size="40" readonly>
+		<br>
+              <p style="color: hsl(217, 10%, 50.8%)">
+
+              <div id="btnContainer">
+                <button class="btn" onclick="listView()"><i class="fa fa-bars"></i> List</button>
+                <button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
+              </div>
+              <br>
+              <div class="row">
+                <div class="column" onclick="click0();" style="background-color:#aaa;">
+                  <!--<h3> <input class="input1" type="text" name="name" placeholder="Heading 1" value = "{{ id0 }}" 
+                  onclick="click0();" style="cursor: pointer;" size=35 readonly></h3>-->
+                  <p id = "trailing_check" onclick="click0();" style="cursor: pointer;"><strong><em>{{ id0 }}</em></strong></p> 
+                  <input type="hidden" id="Id_0" name="custId_0" value="{{ id_c0 }}">
+                  
+                </div>
+                <div class="column" onclick="click1();" style="background-color:#bbb;">
+                  <!--<h3> <input class="input1" type="text" name="name" placeholder="Heading 2" value = "{{ id1 }}" 
+                  onclick="click1();" style="cursor: pointer;" size=35 readonly></h3>-->
+                  <p id = "trailing_check" onclick="click1();" style="cursor: pointer;"><strong><em>{{ id1 }}</em></strong></p> 
+                  <input type="hidden" id="Id_1" name="custId_1" value="{{ id_c1 }}">
+                  
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="column" style="background-color:#ccc;">
+                  <!--<h3> <input class="input1" type="text" name="name" placeholder="Heading 3" value = "{{ id2 }}" 
+                  onclick="click2();" style="cursor: pointer;" size=35 readonly></h3>-->
+                  <p id = "trailing_check" onclick="click2();" style="cursor: pointer;"><strong><em>{{ id2 }}</em></strong></p> 
+                  <input type="hidden" id="Id_2" name="custId_2" value="{{ id_c2 }}">
+                 
+                </div>
+                <div class="column"  style="background-color:#ddd;">
+                  <!--<h3> <input class="input1" type="text" name="name" placeholder="Heading 4" value = "{{ id3 }}" 
+                  onclick="click3();" style="cursor: pointer;" size=35 readonly></h3>-->
+                  <p id = "trailing_check" onclick="click3();" style="cursor: pointer;"><strong><em>{{ id3 }}</em></strong></p> 
+                  <input type="hidden" id="Id_3" name="custId_3" value="{{ id_c3 }}">
+                  
+                </div>
+              </div>
+
+              </p>
+            </div>
+
+            <div class="col-lg-6 mb-5 mb-lg-0">
+              <div class="card">
+                <div class="card-body py-5 px-md-5">
+		<form action="{{ url_for('predict1')}}"method="post">
+			<div class="wrap-input1 validate-input" data-validate = "Message is required">
+			<textarea class="input1" type="text" name="Smile" placeholder="News Article"  value="" id="txt1" 
+				rows="8" cols="50"required="required"></textarea>
+			</div>
+			<div class="container-contact1-form-btn" style="margin: 25px 50px 20px 25px">
+			<button type="submit" class="contact1-form-btn" style="background-color: #ea6981">
+			<span>
+				Predict Biasness
+			</span>
+			</button>
+			</div>
+    		</form>
+		<br>
+		<input class="input1" type="text" id="baisness" name="name" placeholder="NEWS Baised Towards" value = "{{ prediction_text }}" style="text-align:center;margin: 
+		10px 10px 20px 10px;" size="40" readonly>
+		<br>
+                    <form id="form" action="{{ url_for('survey')}}" method="post"> 
+                      <h5 id=form-prompt><b>Quick Survey:</b></h5>
+                      <p id=form-prompt>As per your understanding to which political party this new article was biased?</p>
+                      <input type="radio" id="bjp" name="party" value="bjp">
+                      <label for="bjp">BJP</label><br>
+                      <input type="radio" id="congress" name="party" value="congress">
+                      <label for="congress">Congress</label><br>
+                      <input type="radio" id="aap" name="party" value="aap">
+                      <label for="aap">AAP</label><br>
+                      <input type="radio" id="none" name="party" value="none">
+                      <label for="none">None</label><br><br>
+                      <div><button type="submit" style="background-color: #ea6981" >Save</button></div>
+		</form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Jumbotron -->
+    </section>
+    <!-- Section: Design Block -->
+    <!-- End Portfolio Section -->
+
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center active"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="{{ url_for('static',    filename='assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ url_for('static',    filename='assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
+    <script src="{{ url_for('static',    filename='assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ url_for('static',    filename='assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
+    <script src="{{ url_for('static',    filename='assets/vendor/php-email-form/validate.js') }}"></script>
+
+    <!-- Template Main JS File -->
+    <script src="{{ url_for('static',    filename='assets/js/main.js') }}"></script>
+
+
+
+  </main>
+</body>
+
+</html>
