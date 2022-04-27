@@ -1,15 +1,32 @@
 # Spot Bias
 
-**Baseline Model**<br>
+**Project Title**<br>
+spotBias-Identifying Political Bias in News Article.<br>
 
-![image](https://user-images.githubusercontent.com/41499024/163367202-2ffe8488-ff79-4f64-ba0c-8f586b485f4a.png)
+**Motivation**<br>
+The major reason we chose this issue was to determine the political bias in a news story. Certain media sources have a tendency to produce articles that support a political party's point of view or propaganda. As a result, they approach news items with a predetermined agenda. Because the general public is frequently unaware of a Media Outlet's preferences, they tend to believe them and the ideas/incidents mentioned in their publications. We believe that it is critical for the general public to know the truth (before forming an opinion), without succumbing to the bias of media outlets or bloggers' published articles.<br>
 
+**Build Status**<br>
+We have deployed our web application in our local server- Ubuntu.<br>
 
-**FRONT END**
-
-
+**Screenshots**<br>
 ![image](https://user-images.githubusercontent.com/41499024/163366303-6940e8b7-b589-4cf6-983e-90aab2102cb2.png)
-
 ![image](https://user-images.githubusercontent.com/41499024/163365256-199c0f0f-97d4-4140-abb1-b9546c110dfa.png)
-![image](https://user-images.githubusercontent.com/41499024/163365679-acbcaec1-cfb6-48f6-9f53-db4d3f64dc97.png)
+
+
+**Framework**<br>
+*Front End* HTML, CSS, Bootstrap <br>
+*Back End* FLASK <br>
+*News Catcher API* <br>
+*Google News* "https://news.google.com/search?for=republic+world+political+news+india&hl=en-IN&gl=IN&ceid=IN%3Aen"
+<br>
+*Database Connectivity* SQLite3 <br><br>
+
+**Features**<br>
+1. Fetch News: 4 different News Articles will be fetched and their headings will be displayed. Users can select from any of the 4 headings and the selected news article will be displayed.
+2. Predict Biasness: Our web application will identify if the selected news article is biased towards any political party (BJP, Congress and AAP) or not.
+3. Database Connectivity: In our database we'll save the selected news article, predicted biasness and what user think to which political party it's biased.
+
+
+
 
